@@ -65,12 +65,14 @@ If all went right you should see something like this:
 ```
 
 You can now visit the wg easy web ui to finish setting up wireguard.
+\
 &nbsp;
 http://yourip:51821
 
 #### Connecting to the wireguard vpn
 You will need to download the wireguard official client from their website.
+\
 &nbsp;
 https://www.wireguard.com/install/
 
-#### Success, wg easy is ready and running!
+

@@ -67,7 +67,7 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 | List all containers | `docker ps -a` |
 | Start a container | `docker start ID` or `docker start container-name` |
 | Pause a container | `docker pause ID` or `docker pause container-name` |
-| Pause a container | `docker unpause ID` or `docker unpause container-name` |
+| Unpause a container | `docker unpause ID` or `docker unpause container-name` |
 | Restart a container | `docker restart ID` or `docker restart container-name` |
 | Stop a container | `docker stop ID` or `docker stop container-name` |
 | Remove a stopped container | `docker rm ID` or `docker rm container-name` |

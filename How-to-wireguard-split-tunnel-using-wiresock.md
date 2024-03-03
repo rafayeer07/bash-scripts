@@ -17,7 +17,7 @@ Add the following lines at the end of the **[Peer]** section:
 AllowedApps = 
 DisallowedApps = 
 ```
-Specify wich programs you want to include or exclude, example: msedge.exe, chrome.exe etc
+Specify wich programs you want to allow or disallow, example: msedge.exe, chrome.exe etc
 
 <details>
 <summary>Full .conf file example</summary>

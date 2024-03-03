@@ -65,12 +65,12 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 | ------------- | ------------- |
 | List containers running | `docker ps` |
 | List all containers | `docker ps -a` |
-| Start a container | `docker start ID` |
-| Pause a container: | `docker pause ID` |
-| Pause a container: | `docker unpause ID` |
-| Restart a container | `docker restart ID` |
-| Stop a container | `docker stop ID` |
-| Remove a stopped Container | `docker rm ID` |
+| Start a container | `docker start ID` or `docker start container-name` |
+| Pause a container: | `docker pause ID` or `docker pause container-name` |
+| Pause a container: | `docker unpause ID` or `docker unpause container-name` |
+| Restart a container | `docker restart ID` or `docker restart container-name` |
+| Stop a container | `docker stop ID` or `docker stop container-name` |
+| Remove a stopped Container | `docker rm ID` or `docker rm container-name` |
 | Rename a container | `docker rename container-name new-name` |
 | View Container Resource Usage | `docker stats container-name`
 | Run a command inside a running container | `docker exec -it container-name bash` |

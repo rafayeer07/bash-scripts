@@ -60,7 +60,7 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 \
 &nbsp;
 
-#### Userful commands:
+#### Useful commands:
 | Description  | Command |
 | ------------- | ------------- |
 | List containers running | `docker ps` |

@@ -1,14 +1,19 @@
-# How to install wg easy with bash script on ubuntu server
-##### _Prerequisites: Docker CE and Docker Compose installed._ 
+
+# How to install WireGuard Easy with bash script on ubuntu server
+#### WireGuard VPN + Web-based Admin UI.
+---
+
+> [!IMPORTANT]
+> _Prerequisites: Docker and Docker Compose installed._
 
 &nbsp;
 
-#### First step: Create a bash script file in Ubuntu.
+### First step: Create a bash script file in Ubuntu.
 ```
 sudo nano install-wgeasy.sh
 ```
 
-#### Second step: Copy and Paste the following bash script:
+### Second step: Copy and Paste the following bash script:
 ```
 #!/bin/bash
 
@@ -49,30 +54,31 @@ echo "Done."
 
 Press Ctrl + S to save and then Ctrl + X to close.
 
-#### Third step: Run the bash script
+&nbsp;
+
+### Third step: Run the bash script
 ```
 sudo bash install-wgeasy.sh
 ```
 
-#### Last step: Check if wg easy is running
+### Last step: Check if wg easy is running
 ```
 sudo docker ps | grep wg-easy
 ```
+
+&nbsp;
 
 If all went right you should see something like this:
 ```
  1 minutes ago   Up 1 minutes   0.0.0.0:51820->51820/udp, :::51820->51820/udp
 ```
 
+&nbsp;
+
+- [x] Success, wg easy is ready and running!
+
+&nbsp;
+
 You can now visit the wg easy web ui to finish setting up wireguard.
-\
-&nbsp;
+
 http://yourip:51821
-
-#### Connecting to the wireguard vpn
-You will need to download the wireguard official client from their website.
-\
-&nbsp;
-https://www.wireguard.com/install/
-
-

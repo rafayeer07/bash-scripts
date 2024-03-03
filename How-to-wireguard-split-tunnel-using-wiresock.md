@@ -37,6 +37,7 @@ Endpoint = YOU-WIREGUARD-IP:51820
 AllowedApps = msedge.exe
 DisallowedApps =
 ```
+This will allow the tunnel to work only for Microsoft Edge, for example.
 </details>
 
 &nbsp;

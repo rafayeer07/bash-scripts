@@ -31,9 +31,9 @@ services:
       - VERSION=docker
       - PLEX_CLAIM= #optional
     volumes:
-      - /path/to/library:/config
-      - /path/to/tvseries:/tv
-      - /path/to/movies:/movies
+      - ./path/library:/config
+      - ./path/tvseries:/tv
+      - ./path/movies:/movies
     restart: unless-stopped
 EOF
 wait

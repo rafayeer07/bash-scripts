@@ -63,9 +63,15 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 #### Userful commands:
 | Description  | Command |
 | ------------- | ------------- |
-| List containers running | `sudo docker ps` |
-| List all containers | `sudo docker ps -a` |
-| Start a container | `sudo docker start ID` |
-| Restart a container | `sudo docker restart ID` |
-| Stop a container | `sudo docker stop ID` |
-| Remove a container | `sudo docker rm ID` |
+| List containers running | `docker ps` |
+| List all containers | `docker ps -a` |
+| Start a container | `docker start ID` |
+| Pause a container: | `docker pause container-name` |
+| Pause a container: | `docker unpause container-name` |
+| Restart a container | `docker restart ID` |
+| Stop a container | `docker stop ID` |
+| Remove a stopped Container | `docker rm ID` |
+| Rename a container | `docker rename container-name new-name` |
+| View Container Resource Usage | `docker stats container-name`
+| Run a command inside a running container | `docker exec -it container-name bash` |
+| Create a Docker Network | `docker network create network-name` |

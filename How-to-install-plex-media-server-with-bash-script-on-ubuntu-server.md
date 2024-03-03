@@ -1,14 +1,16 @@
-# How to install Plex media server with bash script on ubuntu server
-##### _Prerequisites: Docker CE and Docker Compose installed._ 
-
+# How to install plex media server with bash script on ubuntu server
+##### 
+> [!IMPORTANT]
+> _Prerequisites: Docker and Docker Compose installed._ 
+ 
 &nbsp;
 
-#### First step: Create a bash script file in Ubuntu.
+### First step: Create a bash script file in Ubuntu.
 ```
 sudo nano install-plex.sh
 ```
 
-#### Second step: Copy and Paste the following bash script:
+### Second step: Copy and Paste the following bash script:
 ```
 #!/bin/bash
 
@@ -44,20 +46,33 @@ echo "Done."
 
 Press Ctrl + S to save and then Ctrl + X to close.
 
-#### Third step: Run the bash script
+&nbsp;
+
+### Third step: Run the bash script
 ```
 sudo bash install-plex.sh
 ```
 
-#### Last step: Check if plex is running
+&nbsp;
+
+### Last step: Check if plex is running
 ```
 sudo docker ps | grep plex
 ```
+
+&nbsp;
+
 
 If all went right you should see something like this:
 ```
  lscr.io/linuxserver/plex:latest   "/init"   1 minutes ago   1 minutes ago plex
 ```
+
+&nbsp;
+
+- [x] Success, plex is ready and running!
+
+&nbsp;
 
 You can now visit the plex web ui to finish setting up your media server.
 

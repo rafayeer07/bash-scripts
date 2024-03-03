@@ -53,8 +53,6 @@ Press Ctrl + S to save and then Ctrl + X to close.
 sudo bash install-plex.sh
 ```
 
-&nbsp;
-
 ### Last step: Check if plex is running
 ```
 sudo docker ps | grep plex

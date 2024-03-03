@@ -1,14 +1,12 @@
 # How to install docker ce with bash script on ubuntu server 
-##### _The following bash script will update, upgrade the system, remove old versions of docker, install new certificates, docker ce and docker compose._ 
 
-&nbsp;
-
-#### First step: Create a bash script file in Ubuntu.
+### First step: Create a bash script file in Ubuntu.
 ```
 sudo nano install.sh
 ```
 
-#### Second step: Copy and Paste the following bash script:
+### Second step: Copy and Paste the following bash script:
+
 ```
 #!/bin/bash
 
@@ -41,26 +39,45 @@ echo "Done."
 
 Press Ctrl + S to save and then Ctrl + X to close.
 
-#### Third step: Run the bash script
+&nbsp;
+
+> [!NOTE]
+> The script will:
+> - Update the package list from the repositories.
+> - Upgrade installed packages to their latest versions.
+> - Remove old versions of docker.
+> - Install additional dependencies.
+> - Install docker components.
+
+&nbsp;
+
+### Third step: Run the bash script
 ```
 sudo bash install.sh
 ```
 
-#### Last step: Check if Docker is running.
+### Last step: Check if Docker is running.
 ```
 sudo docker ps
 ```
+
+&nbsp;
 
 If all went right you should see something like this:
 ```
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
 
-#### Success, docker is ready and running!
-\
 &nbsp;
 
-#### Useful commands:
+- [x] Success, docker is ready and running!
+
+&nbsp;
+
+---
+&nbsp;
+
+### Useful commands:
 | Description  | Command |
 | ------------- | ------------- |
 | List containers running | `docker ps` |

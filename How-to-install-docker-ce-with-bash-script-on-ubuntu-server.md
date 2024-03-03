@@ -57,3 +57,15 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
 
 #### Success, docker is ready and running!
+\
+&nbsp;
+
+#### Userful commands:
+| Description  | Command |
+| ------------- | ------------- |
+| List containers running | `sudo docker ps` |
+| List all containers | `sudo docker ps -a` |
+| Start a container | `sudo docker start ID` |
+| Restart a container | `sudo docker restart ID` |
+| Stop a container | `sudo docker stop ID` |
+| Remove a container | `sudo docker rm ID` |

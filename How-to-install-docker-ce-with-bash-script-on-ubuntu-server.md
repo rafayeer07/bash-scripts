@@ -1,4 +1,4 @@
-# How to install docker ce with bash script on ubuntu server 22.04
+# How to install docker ce with bash script on ubuntu server
 
 ### First step: Create a bash script file in Ubuntu.
 ```

@@ -73,5 +73,6 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 | Remove a stopped container | `docker rm ID` or `docker rm container-name` |
 | Rename a container | `docker rename container-name new-name` |
 | View container resources usage | `docker stats ID` or `docker stats container-name`|
+| Inspect a container | `docker inspect ID` or `docker inspect container-name`|
 | Run a command inside a running container | `docker exec -it ID bash` or `docker exec -it container-name bash`|
 | Create a docker network | `docker network create network-name` |

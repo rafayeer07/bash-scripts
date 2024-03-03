@@ -1,4 +1,4 @@
-# How to install plex media server with bash script on ubuntu server
+# How to install plex media server with bash script on ubuntu server 22.04
 ##### 
 > [!IMPORTANT]
 > _Prerequisites: Docker and Docker Compose installed._ 
